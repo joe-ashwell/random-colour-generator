@@ -43,3 +43,9 @@ button:focus {
   flex-direction: column;
   align-items: center;
 }
+
+@media only screen and (max-width: 1000px) {
+  * {
+    text-align: center;
+  }
+}
