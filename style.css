@@ -40,15 +40,6 @@ button:focus {
   align-items: center;
 }
 
-@media only screen and (max-width: 1000px) {
-  * {
-    text-align: center;
-  }
-  h1 {
-    font-size: 42px;
-  }
-}
-
 /* ---- Slider ---- */
 
 .switch {
@@ -101,4 +92,16 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+  * {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
 }
