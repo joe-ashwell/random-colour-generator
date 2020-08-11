@@ -15,12 +15,11 @@ button {
   border: none;
   padding: 1rem 2rem;
   margin: 0;
-  text-decoration: none;
   background: #292929;
+  cursor: pointer;
   color: #ffffff;
   font-family: 'Oxygen', sans-serif;
   font-size: 19px;
-  cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, 
               transform 150ms ease;
@@ -32,6 +31,11 @@ button:hover,
 button:focus {
   background: #181818;
   outline: white 2px;
+}
+
+.disabled {
+  color: #696868;
+  cursor: not-allowed;
 }
 
 #randomDiv {
