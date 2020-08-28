@@ -11,11 +11,15 @@ switchSlider.addEventListener('click', function() {
     p.style.color = '#f5f5f5';
     generateColourButton.style.backgroundColor = "#f5f5f5";
     generateColourButton.style.color = "#181818";
+    goBack.style.backgroundColor = "#f5f5f5";
+    goBack.style.color = "#181818";
   } else {
     h1.style.color = '#181818';
     p.style.color = '#181818';
     generateColourButton.style.backgroundColor = "#181818";
     generateColourButton.style.color = "#f5f5f5";
+    goBack.style.backgroundColor = "#181818";
+    goBack.style.color = "#f5f5f5";
   }
 
 });
